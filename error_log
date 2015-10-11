@@ -1,0 +1,498 @@
+[07-Oct-2014 11:21:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'db_user'@'localhost' to database 'db_storefinder'' in /home/merkabahnk33/public_html/lavuelta/application/DB_Connect.php:20
+Stack trace:
+#0 /home/merkabahnk33/public_html/lavuelta/application/DB_Connect.php(20): PDO->__construct('mysql:host=loca...', 'db_user', 'A52iqLl!#KLP')
+#1 /home/merkabahnk33/public_html/lavuelta/controllers/ControllerAuthentication.php(14): DB_Connect->connect()
+#2 /home/merkabahnk33/public_html/lavuelta/index.php(5): ControllerAuthentication->__construct()
+#3 {main}
+  thrown in /home/merkabahnk33/public_html/lavuelta/application/DB_Connect.php on line 20
+[07-Oct-2014 11:23:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'db_user'@'localhost' to database 'db_storefinder'' in /home/merkabahnk33/public_html/lavuelta/application/DB_Connect.php:20
+Stack trace:
+#0 /home/merkabahnk33/public_html/lavuelta/application/DB_Connect.php(20): PDO->__construct('mysql:host=loca...', 'db_user', '5wN*pLZ5TVlN')
+#1 /home/merkabahnk33/public_html/lavuelta/controllers/ControllerAuthentication.php(14): DB_Connect->connect()
+#2 /home/merkabahnk33/public_html/lavuelta/index.php(5): ControllerAuthentication->__construct()
+#3 {main}
+  thrown in /home/merkabahnk33/public_html/lavuelta/application/DB_Connect.php on line 20
+[23-Oct-2014 03:13:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Oct-2014 03:13:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Oct-2014 03:13:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Oct-2014 03:13:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[30-Oct-2014 03:29:54 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[30-Oct-2014 03:30:52 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[30-Oct-2014 03:33:04 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[30-Oct-2014 03:33:07 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[30-Oct-2014 03:36:56 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[30-Oct-2014 03:57:36 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[07-Nov-2014 03:19:53 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[07-Nov-2014 03:19:53 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[07-Nov-2014 03:19:53 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[07-Nov-2014 03:19:53 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:04:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:04:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:04:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:04:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:11:24 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:11:24 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:11:24 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:11:24 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:18:35 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:18:35 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:18:35 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Nov-2014 23:18:35 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:24 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:24 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:24 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:24 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:41 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:41 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:41 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:27:41 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:28:55 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:28:55 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:28:55 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:28:55 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:29:00 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:29:00 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:29:00 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 00:29:00 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[10-Nov-2014 02:40:42 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[10-Nov-2014 02:42:03 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[10-Nov-2014 02:42:11 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[10-Nov-2014 02:47:39 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[13-Nov-2014 14:40:49 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:40:49 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:40:49 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:40:49 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:41:04 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:41:04 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:41:04 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[13-Nov-2014 14:41:04 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:17 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:17 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:17 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:56 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:56 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:56 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[15-Nov-2014 17:01:56 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[19-Nov-2014 15:59:21 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[19-Nov-2014 15:59:21 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[19-Nov-2014 15:59:21 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[19-Nov-2014 15:59:21 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Nov-2014 10:22:53 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Nov-2014 10:22:53 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Nov-2014 10:22:53 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Nov-2014 10:22:53 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Nov-2014 16:10:34 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 80
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 80
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 80
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 80
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 190
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 190
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 196
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 196
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 202
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 202
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 208
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 208
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 214
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 214
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 220
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 220
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 227
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 227
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 228
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 228
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 245
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 245
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 245
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 245
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 245
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 245
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 260
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 260
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 266
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 266
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/store_update.php on line 272
+[23-Nov-2014 03:03:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/store_update.php on line 272
+[23-Nov-2014 03:07:39 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Nov-2014 03:07:39 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Nov-2014 03:07:39 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Nov-2014 03:07:39 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[23-Nov-2014 04:53:36 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[23-Nov-2014 05:05:25 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[23-Nov-2014 05:07:38 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[23-Nov-2014 05:08:00 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[24-Nov-2014 18:00:07 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[27-Nov-2014 02:17:46 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[01-Dec-2014 18:58:43 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:43 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:43 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:43 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:57 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:57 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:57 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 18:58:57 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:00:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:00:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:00:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:00:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:01:52 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:01:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:01:52 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:01:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:19:57 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:19:57 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:19:57 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:19:57 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:20:01 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:20:01 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:20:01 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[01-Dec-2014 19:20:01 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:07 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:07 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:23 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:23 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:23 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:45:23 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:12 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:12 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:12 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:12 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:31 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:31 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:31 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:31 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:54 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:54 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:54 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[02-Dec-2014 00:46:54 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:43 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:43 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:43 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:43 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:47 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:47 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:47 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[03-Dec-2014 21:12:47 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:49:40 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:49:40 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:49:40 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:49:40 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:50:17 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:50:17 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:50:17 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[04-Dec-2014 19:50:17 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:12:08 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:12:08 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:12:08 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:12:08 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:06 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:06 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:06 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:06 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:42 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:42 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:42 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 02:21:42 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[09-Dec-2014 20:24:49 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[12-Dec-2014 01:33:36 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[12-Dec-2014 01:34:59 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 120
+[16-Dec-2014 17:15:01 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:01 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:01 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:01 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:42 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:42 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:42 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[16-Dec-2014 17:15:42 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Jan-2015 14:11:27 UTC] PHP Fatal error:  Class 'ControllerStore' not found in /home/merkabahnk33/public_html/2city/home.php on line 4
+[20-Jan-2015 14:11:41 UTC] PHP Fatal error:  Class 'ControllerStore' not found in /home/merkabahnk33/public_html/2city/store_update.php on line 4
+[20-Jan-2015 14:22:04 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Jan-2015 14:22:04 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Jan-2015 14:22:04 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Jan-2015 14:22:04 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[20-Jan-2015 20:23:23 UTC] PHP Fatal error:  Class 'ControllerTicket' not found in /home/merkabahnk33/public_html/2city/ticket.php on line 4
+[21-Jan-2015 03:16:11 UTC] PHP Fatal error:  Class 'ControllerTicket' not found in /home/merkabahnk33/public_html/2city/ticket.php on line 4
+[21-Jan-2015 09:01:48 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 09:01:48 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 09:01:48 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 09:01:48 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 10:14:40 UTC] PHP Fatal error:  Class 'ControllerTicket' not found in /home/merkabahnk33/public_html/2city/ticket.php on line 4
+[21-Jan-2015 10:44:48 UTC] PHP Fatal error:  Class 'ControllerTicket' not found in /home/merkabahnk33/public_html/2city/ticket.php on line 4
+[21-Jan-2015 10:55:17 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 10:55:17 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 10:55:17 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 10:55:17 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[21-Jan-2015 11:28:46 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket.php on line 102
+[21-Jan-2015 11:30:52 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:30:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:30:52 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:30:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:30:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 165
+[21-Jan-2015 11:34:00 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:00 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:00 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:00 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:19 UTC] PHP Warning:  Creating default object from empty value in /home/merkabahnk33/public_html/2city/ticket_update.php on line 12
+[21-Jan-2015 11:34:19 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:19 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:19 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:19 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:27 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:27 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:27 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:27 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:54 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:54 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:54 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:34:54 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:09 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:09 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:09 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:09 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:27 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:27 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:27 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:36:27 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:43:38 UTC] PHP Warning:  Creating default object from empty value in /home/merkabahnk33/public_html/2city/ticket_update.php on line 12
+[21-Jan-2015 11:43:38 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:43:38 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:43:38 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:43:38 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:49 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:49 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:49 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:49 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:53 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:53 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:53 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:45:53 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:48:40 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:48:40 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:48:40 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:48:40 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:48:44 UTC] PHP Notice:  Undefined variable: extras in /home/merkabahnk33/public_html/2city/ticket_update.php on line 12
+[21-Jan-2015 11:48:44 UTC] PHP Fatal error:  Call to a member function removeHttp() on a non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 12
+[21-Jan-2015 11:49:08 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:08 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:08 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:08 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:14 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:14 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:14 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:49:14 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/merkabahnk33/public_html/2city/controllers/ControllerTicket.php on line 24
+[21-Jan-2015 11:52:30 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:30 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:30 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:30 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:40 UTC] PHP Notice:  Undefined variable: result in /home/merkabahnk33/public_html/2city/controllers/ControllerTicket.php on line 26
+[21-Jan-2015 11:52:40 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:40 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:40 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:40 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:45 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:45 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:45 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:45 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:48 UTC] PHP Notice:  Undefined variable: result in /home/merkabahnk33/public_html/2city/controllers/ControllerTicket.php on line 26
+[21-Jan-2015 11:52:48 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:48 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:48 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 11:52:48 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:07:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/merkabahnk33/public_html/2city/controllers/ControllerTicket.php on line 25
+[21-Jan-2015 12:08:22 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:08:22 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:08:22 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:08:22 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:12 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:12 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:12 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:12 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:18 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:18 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:18 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:18 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:25 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:25 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:25 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:25 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:28 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:28 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:28 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:28 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:30 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:30 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:30 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:30 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:33 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:33 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:33 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:33 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:38 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:38 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:38 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:38 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:54 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:54 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:54 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:54 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:57 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:57 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:57 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:19:57 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:03 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:03 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:03 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:03 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:11 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:11 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:11 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 12:20:11 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:27 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:27 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:27 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:27 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:30 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:30 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:30 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:09:30 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:25 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:25 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:25 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:25 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:37 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:37 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:37 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[21-Jan-2015 13:12:37 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[22-Jan-2015 04:10:50 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[22-Jan-2015 04:10:50 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[22-Jan-2015 04:10:50 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[22-Jan-2015 04:10:50 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[22-Jan-2015 14:45:20 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 121
+[22-Jan-2015 15:15:29 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 121
+[26-Jan-2015 01:09:41 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:41 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:41 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:41 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:48 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:48 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:48 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:09:48 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:38 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:38 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:38 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:38 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:42 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:42 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:42 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[26-Jan-2015 01:10:42 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[27-Jan-2015 15:05:56 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[27-Jan-2015 15:05:56 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[27-Jan-2015 15:05:56 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[27-Jan-2015 15:05:56 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[27-Jan-2015 15:10:21 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[27-Jan-2015 15:10:21 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[27-Jan-2015 15:10:21 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[27-Jan-2015 15:10:21 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:21 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:21 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:21 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:21 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 19:38:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:23 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:23 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:23 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:23 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[06-Feb-2015 20:17:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[11-Feb-2015 19:30:48 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 121
+[14-Feb-2015 03:34:28 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:28 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:28 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:28 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:58 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:58 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:58 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[14-Feb-2015 03:34:58 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/news_update.php on line 131
+[17-Feb-2015 15:05:17 UTC] PHP Notice:  Undefined variable: photos_store in /home/merkabahnk33/public_html/2city/photo_store_view.php on line 121
+[20-Feb-2015 01:46:37 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:37 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:37 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:37 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:44 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:46:44 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:00 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:00 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:00 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:00 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:20 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:20 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:20 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:48:20 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:14 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:14 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:14 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:14 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:41 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:41 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:41 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:49:41 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:39 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:39 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:39 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:39 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:50 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:50 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:50 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 01:57:50 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:04 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:04 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:04 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:04 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:09 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:09 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:09 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 02:03:09 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:20 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:20 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:20 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:20 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:28 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:28 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:28 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:18:28 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:22:52 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:22:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:22:52 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:22:52 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:23:05 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:23:05 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 03:23:05 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:18 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:18 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:18 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:18 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:43 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:43 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:43 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:43 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:46 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:46 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:46 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:13:46 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:15:51 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:15:51 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:15:51 UTC] PHP Notice:  Undefined variable: store in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
+[20-Feb-2015 11:15:51 UTC] PHP Notice:  Trying to get property of non-object in /home/merkabahnk33/public_html/2city/ticket_update.php on line 53
